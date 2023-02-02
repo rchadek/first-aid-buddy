@@ -23,18 +23,22 @@ The model uses a custom feedforward NeuralNet class inherited from the PyTorch t
 The chat file itself relis on 'tkinter' to generate a GUI application for a user to interact with.
 
 # Dependcies
-nltk
-numpy
-json
-random
-PyTorch
-tkinter
+- nltk
+- numpy
+- json
+- random
+- PyTorch
+- tkinter
 
 # Reflection
+My dataset came from "First Aid Recommendations Intents" on Kaggle - which I then modified to include some basic greetings, goodbye, and thanks responses.
+https://www.kaggle.com/datasets/therealsampat/intents-for-first-aid-recommendations
 
+I based my chatbot on Patrick Loeber's YouTube series: "Chat Bot With PyTorch - NLP And Deep Learning - Python Tutorial" 
+https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg
 
+One of the biggest challenges I found was getting PyTorch installed and then understanding how to work with that environment in VS Code. 
 
+In regards to ethical concerns - rather than having the chatbot respond with "I don't understand" if no match to the request was found - I included a default statement telling the user: "I don't seem to have an answer for that one. If this is a life-threatening situation, you should call 911 or head to the nearest emergency room immediately."
 
-
-
-
+This may seem like a simple chatbot - but I spent many hours of trial and error getting this to work how I wanted and I'm proud of how it turned out.
