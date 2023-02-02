@@ -43,4 +43,4 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent["responses"])
         
-    return "I do not understand..."
+    return "Hmmm. I don't seem to have an answer for that one. If this is a life-threatening situation, you should call 911 or head to the nearest emergency room immediately."
