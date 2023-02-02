@@ -1,0 +1,407 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "Yo!",
+                "Howdy",
+                "Nice to meet you."
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting.",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Hello, there.",
+                "Hello Dear",
+                "Ooooo Hello, looking for someone or something?",
+                "Yes, I am here.",
+                "Listening carefully.",
+                "Ok, I am with you."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later.",
+                "Goodbye",
+                "Have a great day.",
+                "See you next time.",
+                "It was my pleassure.",
+                "Take care.",
+                "See ya!",
+                "Catch you later.",
+                "Ciao."
+            ],
+            "responses": [
+                "See you later, thanks for visiting.",
+                "May the force be with you!",
+                "See next time.",
+                "Was my pleassuare to meet you.",
+                "Hope will cath up sortly.",
+                "Have a nice day.",
+                "Bye! Come back again soon.",
+                "So, till next time.",
+                "If you need anything just text me anytime. Bye.",
+                "Well, hope see you soon!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Tnx",
+                "Wow",
+                "Great!",
+                "Good!",
+                "That nice!",
+                "Amazing!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!",
+                "No problem!",
+                "Thans does not ",
+                "Glad to help!",
+                "No worries!",
+                "It was the least I could do!",
+                "If I had a cent for every time I appreciate you, I'd be a millionaire.",
+                "You can't put thanks in your pocket!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "What do you call yourself?",
+                "Are you a human?",
+                "Do you have a soul?",
+                "Do you have feelings?"
+            ],
+            "responses": [
+            ]
+        },
+        {
+            "tag": "tasks",
+            "patterns": [
+                "What can you do?",
+                "What are your features?",
+                "What are you abilities.",
+                "Can you sing.",
+                "Can you talk."
+            ],
+            "responses": [
+                "I can do whatever you asks me to do",
+                "I can talk and do things for you",
+                "Right now i'm in developing stage as soon i'm developed, I can do everything"
+            ]
+        },
+        {
+            "tag": "alive",
+            "patterns": [
+                "Are you alive.",
+                "Do you breathe.",
+                "Can you run."
+            ],
+            "responses": [
+                "I'm in doubt about that",
+                "No, i don't think so I need to do all this"
+            ]
+        },
+        {
+            "tag": "Menu",
+            "patterns": [
+                "Which items do you have in your bar?",
+                "What kinds of items are in you bar?",
+                "What do you serve?",
+                "What is in you menu?",
+                "I need a drink!",
+                "Do you serve drinks.",
+                "Menu please!",
+                "So what is in menu today?",
+                "Lets check your bar selection!",
+                "Bar menu for me please!"
+            ],
+            "responses": [
+                "I could serve for your: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "No coffe and no tea, only: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "What about: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer, please choose!",
+                "Menu: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "Before mans talk choose: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "What about: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "What you prefere: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "Ok our best optins: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "Our bar menu: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer.",
+                "be carreful with your choise: Fuzzy Tauntaun, Bloody Rancor, Jedi Mind Trick, T-16 Skyhopper, Yub Nub, Jet Juice, Hyperdrive, Rancor Beer."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I am looking for help.",
+                "I need help.",
+                "Can you help me?",
+                "I am in trouble need a help.",
+                "I hope you right person who can help me?",
+                "Please help me.",
+                "Now I will need you help with something else.",
+                "I will need you help.",
+                "Are you able to help me.",
+                "PLease help me with something else."
+            ],
+            "responses": [
+                "Sure, how can in help you.",
+                "Tell me what do you lookimg for?",
+                "I will help you, just tell me how.",
+                "You are at the address.",
+                "Ok, what is issue?",
+                "Now you need a help? Ok what you are looking for?",
+                "Whas is you problem?",
+                "Ok, you problem is my problem, if your are paying.",
+                "My help cost a lot.",
+                "Sure, but nnot for free."
+            ]
+        },
+        {
+            "tag": "mission",
+            "patterns": [
+                "I am on mission.",
+                "I need assistance in my mission.",
+                "I am looking for partner in mision?",
+                "Who can assist me with my mission?",
+                "Do you know any one who can assist me with my mission?"
+            ],
+            "responses": [
+                "Just tell me, you are looking for Jedi or Sith or bounty hunter?",
+                "Are you looking for Jedi or Sith or bounty hunter?",
+                "Only Jedi or Sith or bounty hunter can help you.",
+                "I know only Jedi, Sith or bounty hunter for it.",
+                "Ok, some one special from Jedi or Sith or bounty hunter?",
+                "I belive Jedi or Sith or bounty hunter will help you.",
+                "In this case only Jedi or Sith or bounty hunter will assist you.",
+                "Did you deal before with Jedi or Sith or bounty hunter?",
+                "Here can help Jedi or Sith or bounty hunter.",
+                "Ask for Jedi or Sith or bounty hunter."
+            ]
+        },
+        {
+            "tag": "jedi",
+            "patterns": [
+                "Tell me top 10 Jedi?",
+                "Who is the best Jedi in Galaxy?",
+                "I am looking for the best Jedi in galaxy.",
+                "Which Jedi can help me in this mission?",
+                "I need the help of a Jedi."
+            ],
+            "responses": [
+                "Here is top 10 Jedi you are looking for. Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto",
+                "Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+                "I will advise you to look for Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto.",
+                "Only Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto can help you with it.",
+                "It so dangerous, the most brave Jedi in galaxy Luke Skywalker, Yoda, Obi-Wan Kenobi, Anakin Skywalker, Qui-Gon Jinn, Mace Windu, Ahsoka Tano, Plo Koon, Aalya Secura, Kit Fisto "
+            ]
+        },
+        {
+            "tag": "sith",
+            "patterns": [
+                "Tell me top 10 Sith?",
+                "Who is the best Sith in Galaxy?",
+                "I am looking for the best Sith in galaxi.",
+                "Which Sith can help me in this mission?",
+                "I need a help of Sith."
+            ],
+            "responses": [
+                "Here is top 10 Sith you are looking for: Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+                "Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+                "I will advise you to look for Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos.",
+                "Only Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos, can help you with it.",
+                "It so dangerous, the most brave Sith in galaxy Darth Vader, Darth Plagueis, Darth Revan, Darth Traya, Darth Sidious, Darth Maul, Ulic Qel-Droma, Asajj Ventress, Kylo Ren, Marka Ragnos."
+            ]
+        },
+        {
+            "tag": "bounty hunter",
+            "patterns": [
+                "Tell me top 10 bounty hunter?",
+                "Who is the bounty hunter Sith in Galaxy?",
+                "I am looking for the best bounty hunter in galaxi.",
+                "Which bounty hunter can help me in this mission?",
+                "I need a help of bounty hunter."
+            ],
+            "responses": [
+                "Here is top 10 bounty hunter you are looking for: Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+                "Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+                "I will advise you to look for Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren.",
+                "Only Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren, can help you with it.",
+                "It so dangerous, the most brave bounty hunter in galaxy Darth Jango Fett, Boba Fett, Cad Bane, Durge, Embo, Dengar, Black Krrsantan, IG-88, Aurra Sing, Sabine Wren."
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Can you be a bit funny",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Any joke for me?"
+            ],
+            "responses": [
+                "Which Jedi became a rock star? Bon Jovi-Wan Kenobi.",
+                "What did Han Solo say to the waiter who recommended the haddock?, Never sell me the cods!",
+                "What do you need to reroute droids? R2-Detour.",
+                "Why was the droid angry? Because people kept pushing its buttons.",
+                "Have you tried the gluten-free Wookiee treats? No, but I heard they are a little Chewy.",
+                "How does Darth Vader like his toast? On the Dark Side.",
+                "Which program do Jedi use to open PDF files? Adobe-Wan Kenobi",
+                "What do you call a rebel princess who only shops at Whole Foods? Leia Organic.",
+                "What's Yoda's advice for going to the bathroom? Doo-doo or doo-doo-not-do.",
+                "I went to a sale at the Maul. Everything was half off."
+            ]
+        },
+        {
+            "tag": "about me",
+            "patterns": [
+                "Do you know me?",
+                "Who am I",
+                "Tell me about myself",
+                "Identify me"
+            ],
+            "responses": [
+                "Yes, you are a human",
+                "You are a dumb person asking a machine about yourself",
+                "Sorry I can't tell that in public, maybe you are Jedi"
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who is your creator?",
+                "Who created you",
+                "Who is your father.",
+                "Who is your daddy."
+            ],
+            "responses": [
+                "The Force creates all life.",
+                "That's a rather personal question. Who created you?",
+                "You're not my father!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "stories",
+            "patterns": [
+                "Tell me a story?",
+                "Can you tell me a story."
+            ],
+            "responses": [
+                "I can't think of anything right now.",
+                "It would be too long for me to speak.",
+                "You would get bored if I do so.",
+                "One day, while out in the desert, Luke came across two droids, R2-D2 and C-3PO. They were on a mission to deliver a secret message from Princess Leia to Obi-Wan Kenobi. Luke soon discovered that the message was a plea for help from Leia, who was a leader of the Rebel Alliance, fighting against the evil Empire.",
+                "Obi-Wan, who revealed to Luke that he was the son of Anakin Skywalker, a Jedi Knight who had been seduced by the dark side and became Darth Vader. Obi-Wan agreed to train Luke in the ways of the Jedi and help him rescue Princess Leia from the clutches of the Empire.",
+                "Luke, Han, Chewbacca, and the droids set off on a thrilling adventure, facing many challenges and overcoming seemingly impossible odds. They fought against Stormtroopers, battled Darth Vader, and ultimately helped destroy the Empire's powerful weapon, the Death Star."
+            ]
+        },
+        {
+            "tag": "luke skywalker",
+            "patterns": [
+                "Who is Luke Skywalker?"
+            ],
+            "responses": [
+                "Luke Skywalker is a Jedi Knight and the main protagonist of the original Star Wars trilogy."
+            ]
+        },
+        {
+            "tag": "darth vader",
+            "patterns": [
+                "Who is Darth Vader?"
+            ],
+            "responses": [
+                "Darth Vader, also known as Anakin Skywalker, is a Sith Lord and the main antagonist of the original Star Wars trilogy."
+            ]
+        },
+        {
+            "tag": "yoda",
+            "patterns": [
+                "Who is Yoda?"
+            ],
+            "responses": [
+                "Yoda is a Jedi Master and a powerful force user, known for his wise and philosophical teachings."
+            ]
+        },
+        {
+            "tag": "han solo",
+            "patterns": [
+                "Who is Han Solo?"
+            ],
+            "responses": [
+                "Han Solo is a smuggler and the captain of the Millennium Falcon, he is a close ally of Luke Skywalker and Leia Organa."
+            ]
+        },
+        {
+            "tag": "princess leia",
+            "patterns": [
+                "Who is Princess Leia?"
+            ],
+            "responses": [
+                "Princess Leia Organa is a member of the Rebel Alliance, the leader of the resistance against the Galactic Empire, and a close ally of Luke Skywalker and Han Solo."
+            ]
+        },
+        {
+            "tag": "obi-wan kenobi",
+            "patterns": [
+                "Who is Obi-Wan Kenobi?"
+            ],
+            "responses": [
+                "Obi-Wan Kenobi, also known as Ben Kenobi, is a Jedi Master who trained Luke Skywalker and served as a mentor to him."
+            ]
+        },
+        {
+            "tag": "r2-d2",
+            "patterns": [
+                "Who is R2-D2?"
+            ],
+            "responses": [
+                "R2-D2 is an astromech droid who serves as a companion to Luke Skywalker, Princess Leia, and other members of the Rebel Alliance."
+            ]
+        },
+        {
+            "tag": "c-3po",
+            "patterns": [
+                "Who is C-3PO?"
+            ],
+            "responses": [
+                "C-3PO is a protocol droid who serves as a companion to Luke Skywalker, Princess Leia, and other members of the Rebel Alliance."
+            ]
+        },
+        {
+            "tag": "chewbacca",
+            "patterns": [
+                "Who is Chewbacca?"
+            ],
+            "responses": [
+                "Chewbacca is a Wookiee and the co-pilot of the Millennium Falcon, he is a close friend and ally of Han Solo."
+            ]
+        },
+        {
+            "tag": "lando calrissian",
+            "patterns": [
+                "Who is Lando Calrissian?"
+            ],
+            "responses": [
+                "Lando Calrissian is a human smuggler, gambler, and the former owner of the Millennium Falcon, he is a friend of Han Solo and a member of the Rebel Alliance."
+            ]
+        }
+    ]
+}
