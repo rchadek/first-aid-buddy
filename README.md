@@ -42,3 +42,12 @@ One of the biggest challenges I found was getting PyTorch installed and then und
 In regards to ethical concerns - rather than having the chatbot respond with "I don't understand" if no match to the request was found - I included a default statement telling the user: "I don't seem to have an answer for that one. If this is a life-threatening situation, you should call 911 or head to the nearest emergency room immediately."
 
 This may seem like a simple chatbot - but I spent many hours of trial and error getting this to work how I wanted and I'm proud of how it turned out.
+
+# Screenshots
+![first-aid-buddy-01](https://user-images.githubusercontent.com/30985537/216718817-87781845-0434-499f-bba3-8ea1d9e001e4.JPG)
+![first-aid-buddy-02](https://user-images.githubusercontent.com/30985537/216718822-d826d1f8-2255-4c43-98ea-b3679f2d7e68.JPG)
+![first-aid-buddy-03](https://user-images.githubusercontent.com/30985537/216718826-b1b1ac27-2208-4cd7-986a-94d64c63425f.JPG)
+![first-aid-buddy-04](https://user-images.githubusercontent.com/30985537/216718828-328b6b5c-bf44-4be0-b233-62e1e7590aec.JPG)
+![first-aid-buddy-05](https://user-images.githubusercontent.com/30985537/216718831-5bc3245e-ef32-4b72-a28b-f814c98a9329.JPG)
+
+
